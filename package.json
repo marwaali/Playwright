@@ -1,0 +1,15 @@
+{
+  "name": "trainingplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "MyTest":"npx playwright test loginTest.spec.ts -g login with valid user --config=playwright.config.ts --project=chromium --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.1"
+  }
+}
